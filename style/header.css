@@ -1,0 +1,25 @@
+header {
+  width: 100%;
+  padding:20px 4% 10px;
+  position: fixed;
+  display: flex;
+  background-color: white;
+  align-items: center;
+  top: 0;
+  border-bottom: 1px solid #888;
+}
+
+ul {
+  text-align:right;
+}
+
+li {
+  display: inline;
+  padding: 0 10px;
+}
+
+@media(prefers-color-scheme: dark){
+	header{
+		background-color: black;
+	}
+}

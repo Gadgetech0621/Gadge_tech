@@ -1,0 +1,31 @@
+body {
+    margin: 0;
+    margin-top: 120px;
+    padding: 0;
+    font-family: 'Noto Serif JP',serif;
+    background-color: white;
+    color: black;
+}
+
+@media(prefers-color-scheme: dark){
+	body{
+		background-color: black;
+		color: white;
+	}
+}
+
+@media(max-width: 1000px){
+	header{
+		display: block;
+	}
+	header .nav{
+		display: block;
+		margin-right: 15px;
+	}
+	header .nav ul{
+		text-align: left;
+	}
+	body>div{
+		margin-top: 250px;
+	}
+}

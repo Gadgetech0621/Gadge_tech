@@ -1,0 +1,25 @@
+a:visited {
+    color: black;
+    background-color: white;
+}
+
+body {
+    background-color: white;
+    color: black;
+}
+
+main {
+    font-size: 30px;
+}
+
+@media (prefers-color-scheme: dark){
+	a:visited {
+		color: white;
+		background-color: black;
+	}
+
+	body {
+		background-color: black;
+		color: white;
+	}
+}
